@@ -1,0 +1,20 @@
+parameters:
+
+
+application:
+	mapping: App\Presentation\*Presenter
+
+latte:
+	strictParsing: yes
+
+
+assets:
+	mapping:
+		default:
+			path: assets
+
+
+di:
+	export:
+		parameters: no
+		tags: no
